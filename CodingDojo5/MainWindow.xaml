@@ -19,20 +19,27 @@
             <ListBox Grid.Column="0" Margin="5">
                 <ListBoxItem BorderThickness="2" BorderBrush="Black" Margin="5">
                     <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
-                        <Image Height="40" Width="40" Margin="0,0,5,0" ></Image>
+                        <Image Height="50" Width="50" Margin="0,0,5,0" Source="Images/lego1.jpg"></Image>
                         <Label Content="MY Lego" VerticalAlignment="Center" HorizontalAlignment="Center"/> 
                     </StackPanel>
                 </ListBoxItem>
                 <ListBoxItem BorderThickness="2" BorderBrush="Black" Margin="5">
                     <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
-                        <Image Height="40" Width="40" Margin="0,0,5,0" ></Image>
+                        <Image Height="50" Width="50" Margin="0,0,5,0" Source="Images/playmobil1.jpg"></Image>
                         <Label Content="MY Playmobil" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </ListBoxItem>
             </ListBox>
             <ListBox Grid.Column="1" Margin="5">
-                <ListBoxItem BorderThickness="2" BorderBrush="Black" Margin="5">
-                    123
+                <ListBoxItem BorderThickness="2" BorderBrush="Black" Margin="5" VerticalAlignment="Top" HorizontalAlignment="Left">
+                    <StackPanel Orientation="Vertical">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Height="40" Width="40" Source="Images/playmobil2.jpg" VerticalAlignment="Center"></Image>
+                            <Label Content="Playmobil 2" VerticalAlignment="Center"></Label>
+                            <Label Content="5+" VerticalAlignment="Center" HorizontalAlignment="Left"></Label>
+                        </StackPanel>
+                        <Button Margin="5" Content="Buy"></Button>
+                    </StackPanel>
                 </ListBoxItem>
             </ListBox>
         </Grid>
